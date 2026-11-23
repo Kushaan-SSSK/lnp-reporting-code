@@ -216,7 +216,13 @@ def endpoint_heterogeneity(df: pd.DataFrame) -> dict:
         "percent knockdown or silencing": r"knockdown|silencing",
         "mean fluorescence intensity": r"\bMFI\b",
         "photons or radiance": r"photon|radiance|p/s",
-        "protein mass per volume": r"\b(?:ng|pg|ug|µg)/m[lL]\b",
+        # Both micro characters are spelled as escapes rather than literals.
+        # The Atlas uses U+03BC (Greek small mu, 310 occurrences in this
+        # field), not U+00B5 (micro sign); a literal here is also silently
+        # corrupted when the file is read under a non-UTF-8 default encoding,
+        # which undercounted this convention as 61 instead of 73.
+        "protein mass per volume":
+            "\\b(?:ng|pg|ug|[\u00b5\u03bc]g)/m[lL]\\b",
     }
     counts = {k: int(s.str.contains(v, case=False, regex=True).sum())
               for k, v in units.items()}

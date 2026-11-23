@@ -27,6 +27,7 @@ from pathlib import Path
 
 import numpy as np
 import pandas as pd
+import sklearn
 from scipy import stats
 from sklearn.ensemble import GradientBoostingRegressor, RandomForestRegressor
 from sklearn.impute import SimpleImputer
@@ -444,6 +445,9 @@ def main() -> None:
             "python": platform.python_version(),
             "numpy": np.__version__,
             "pandas": pd.__version__,
+            # Model results depend on this one, so it is recorded with the
+            # rest; the code availability statement cites it.
+            "scikit-learn": sklearn.__version__,
         }
     }
 
