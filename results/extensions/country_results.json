@@ -1,0 +1,111 @@
+{
+ "publications_by_country": {
+  "US": 37,
+  "CA": 12,
+  "KR": 3,
+  "CN": 3,
+  "JP": 2,
+  "AU": 1,
+  "SG": 1,
+  "GB": 1,
+  "FR": 1,
+  "DE": 1,
+  "CH": 1
+ },
+ "formulations_by_country": {
+  "US": 751,
+  "CA": 176,
+  "KR": 42,
+  "CN": 40,
+  "JP": 32,
+  "SG": 13,
+  "GB": 12,
+  "FR": 9,
+  "AU": 8,
+  "CH": 5,
+  "DE": 4
+ },
+ "targets": {
+  "particle_size_nm_std": {
+   "label": "Particle size (nm)",
+   "n": 1037,
+   "n_by_country": {
+    "US": 716,
+    "other": 162,
+    "CA": 159
+   },
+   "icc1_study": 0.5826,
+   "icc1_country": 0.2397,
+   "r2_study_mean": 0.599,
+   "r2_country_mean": 0.1435,
+   "grouped_r2": {
+    "ridge": -0.2996,
+    "random_forest": 0.0408,
+    "gradient_boosting": 0.0903
+   },
+   "grouped_r2_with_country": {
+    "ridge": -0.3541,
+    "random_forest": 0.0447,
+    "gradient_boosting": 0.1068
+   },
+   "transfer_r2": {
+    "train_US_test_other": -0.3853,
+    "train_other_test_US": -0.3575
+   }
+  },
+  "pdi_std": {
+   "label": "Polydispersity index",
+   "n": 738,
+   "n_by_country": {
+    "US": 544,
+    "other": 146,
+    "CA": 48
+   },
+   "icc1_study": 0.5436,
+   "icc1_country": 0.2329,
+   "r2_study_mean": 0.5563,
+   "r2_country_mean": 0.1311,
+   "grouped_r2": {
+    "ridge": -0.1466,
+    "random_forest": 0.0965,
+    "gradient_boosting": 0.0697
+   },
+   "grouped_r2_with_country": {
+    "ridge": -0.2471,
+    "random_forest": 0.086,
+    "gradient_boosting": 0.1023
+   },
+   "transfer_r2": {
+    "train_US_test_other": 0.0448,
+    "train_other_test_US": -0.3669
+   }
+  },
+  "encapsulation_efficiency_percent_std": {
+   "label": "Encapsulation efficiency (%)",
+   "n": 633,
+   "n_by_country": {
+    "US": 465,
+    "other": 96,
+    "CA": 72
+   },
+   "icc1_study": 0.4566,
+   "icc1_country": 0.0592,
+   "r2_study_mean": 0.4857,
+   "r2_country_mean": 0.041,
+   "grouped_r2": {
+    "ridge": 0.025,
+    "random_forest": 0.0059,
+    "gradient_boosting": 0.0181
+   },
+   "grouped_r2_with_country": {
+    "ridge": 0.0219,
+    "random_forest": 0.001,
+    "gradient_boosting": 0.0283
+   },
+   "transfer_r2": {
+    "train_US_test_other": 0.004,
+    "train_other_test_US": -0.4223
+   }
+  }
+ }
+}

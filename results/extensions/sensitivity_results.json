@@ -1,0 +1,314 @@
+{
+ "particle_size_nm_std": {
+  "label": "Particle size (nm)",
+  "n": 1037,
+  "n_publications": 62,
+  "folds": [
+   {
+    "test_publications": 3,
+    "test_formulations": 104
+   },
+   {
+    "test_publications": 3,
+    "test_formulations": 104
+   },
+   {
+    "test_publications": 7,
+    "test_formulations": 105
+   },
+   {
+    "test_publications": 7,
+    "test_formulations": 104
+   },
+   {
+    "test_publications": 7,
+    "test_formulations": 103
+   },
+   {
+    "test_publications": 7,
+    "test_formulations": 104
+   },
+   {
+    "test_publications": 7,
+    "test_formulations": 104
+   },
+   {
+    "test_publications": 7,
+    "test_formulations": 103
+   },
+   {
+    "test_publications": 7,
+    "test_formulations": 103
+   },
+   {
+    "test_publications": 7,
+    "test_formulations": 103
+   }
+  ],
+  "onehot": {
+   "grouped": {
+    "ridge": -0.2044,
+    "linear": -0.2314,
+    "random_forest": 0.0308,
+    "gradient_boosting": -0.0381,
+    "svr_rbf": -0.0509
+   },
+   "loso": {
+    "ridge": -0.0298,
+    "linear": -0.0368,
+    "random_forest": 0.0047,
+    "gradient_boosting": -0.0566,
+    "svr_rbf": -0.0493
+   },
+   "best_grouped": 0.0308,
+   "best_loso": 0.0047
+  },
+  "frequency": {
+   "grouped": {
+    "ridge": -0.2996,
+    "linear": -0.3002,
+    "random_forest": 0.0408,
+    "gradient_boosting": 0.0903,
+    "svr_rbf": -0.0409
+   },
+   "loso": {
+    "ridge": -0.2724,
+    "linear": -0.2731,
+    "random_forest": -0.0558,
+    "gradient_boosting": -0.03,
+    "svr_rbf": -0.0373
+   },
+   "best_grouped": 0.0903,
+   "best_loso": -0.03
+  },
+  "n_range_values": 34,
+  "midpoint": {
+   "grouped": {
+    "ridge": -0.0812,
+    "linear": -0.0816,
+    "random_forest": -0.023,
+    "gradient_boosting": 0.0549,
+    "svr_rbf": -0.0268
+   },
+   "loso": {
+    "ridge": -0.0744,
+    "linear": -0.0748,
+    "random_forest": -0.1284,
+    "gradient_boosting": -0.1731,
+    "svr_rbf": -0.0294
+   },
+   "best_grouped": 0.0549,
+   "best_loso": -0.0294,
+   "icc1": 0.561,
+   "n": 1037
+  }
+ },
+ "pdi_std": {
+  "label": "Polydispersity index",
+  "n": 738,
+  "n_publications": 43,
+  "folds": [
+   {
+    "test_publications": 1,
+    "test_formulations": 96
+   },
+   {
+    "test_publications": 1,
+    "test_formulations": 93
+   },
+   {
+    "test_publications": 5,
+    "test_formulations": 69
+   },
+   {
+    "test_publications": 5,
+    "test_formulations": 69
+   },
+   {
+    "test_publications": 4,
+    "test_formulations": 67
+   },
+   {
+    "test_publications": 4,
+    "test_formulations": 67
+   },
+   {
+    "test_publications": 5,
+    "test_formulations": 69
+   },
+   {
+    "test_publications": 6,
+    "test_formulations": 70
+   },
+   {
+    "test_publications": 6,
+    "test_formulations": 69
+   },
+   {
+    "test_publications": 6,
+    "test_formulations": 69
+   }
+  ],
+  "onehot": {
+   "grouped": {
+    "ridge": -0.1445,
+    "linear": -0.149,
+    "random_forest": 0.1103,
+    "gradient_boosting": 0.1246,
+    "svr_rbf": -0.0984
+   },
+   "loso": {
+    "ridge": -0.1129,
+    "linear": -0.1134,
+    "random_forest": 0.101,
+    "gradient_boosting": 0.1265,
+    "svr_rbf": -0.1125
+   },
+   "best_grouped": 0.1246,
+   "best_loso": 0.1265
+  },
+  "frequency": {
+   "grouped": {
+    "ridge": -0.1466,
+    "linear": -0.1483,
+    "random_forest": 0.0965,
+    "gradient_boosting": 0.0697,
+    "svr_rbf": 0.0034
+   },
+   "loso": {
+    "ridge": -0.1184,
+    "linear": -0.1192,
+    "random_forest": 0.0789,
+    "gradient_boosting": 0.0572,
+    "svr_rbf": -0.0138
+   },
+   "best_grouped": 0.0965,
+   "best_loso": 0.0789
+  },
+  "n_range_values": 4,
+  "midpoint": {
+   "grouped": {
+    "ridge": -0.0581,
+    "linear": -0.0598,
+    "random_forest": 0.0889,
+    "gradient_boosting": 0.107,
+    "svr_rbf": 0.0026
+   },
+   "loso": {
+    "ridge": -0.0283,
+    "linear": -0.0292,
+    "random_forest": 0.0769,
+    "gradient_boosting": 0.0665,
+    "svr_rbf": -0.0146
+   },
+   "best_grouped": 0.107,
+   "best_loso": 0.0769,
+   "icc1": 0.5391,
+   "n": 738
+  }
+ },
+ "encapsulation_efficiency_percent_std": {
+  "label": "Encapsulation efficiency (%)",
+  "n": 633,
+  "n_publications": 51,
+  "folds": [
+   {
+    "test_publications": 1,
+    "test_formulations": 96
+   },
+   {
+    "test_publications": 4,
+    "test_formulations": 60
+   },
+   {
+    "test_publications": 5,
+    "test_formulations": 60
+   },
+   {
+    "test_publications": 6,
+    "test_formulations": 60
+   },
+   {
+    "test_publications": 5,
+    "test_formulations": 60
+   },
+   {
+    "test_publications": 6,
+    "test_formulations": 60
+   },
+   {
+    "test_publications": 6,
+    "test_formulations": 60
+   },
+   {
+    "test_publications": 6,
+    "test_formulations": 59
+   },
+   {
+    "test_publications": 6,
+    "test_formulations": 59
+   },
+   {
+    "test_publications": 6,
+    "test_formulations": 59
+   }
+  ],
+  "onehot": {
+   "grouped": {
+    "ridge": -0.4174,
+    "linear": -0.4722,
+    "random_forest": 0.0053,
+    "gradient_boosting": -0.0659,
+    "svr_rbf": -0.1424
+   },
+   "loso": {
+    "ridge": -0.3755,
+    "linear": -0.4105,
+    "random_forest": 0.0184,
+    "gradient_boosting": -0.0304,
+    "svr_rbf": -0.1345
+   },
+   "best_grouped": 0.0053,
+   "best_loso": 0.0184
+  },
+  "frequency": {
+   "grouped": {
+    "ridge": 0.025,
+    "linear": 0.0229,
+    "random_forest": 0.0059,
+    "gradient_boosting": 0.0181,
+    "svr_rbf": -0.0605
+   },
+   "loso": {
+    "ridge": 0.0066,
+    "linear": 0.0047,
+    "random_forest": 0.0327,
+    "gradient_boosting": 0.0674,
+    "svr_rbf": -0.0527
+   },
+   "best_grouped": 0.025,
+   "best_loso": 0.0674
+  },
+  "n_range_values": 7,
+  "midpoint": {
+   "grouped": {
+    "ridge": 0.0229,
+    "linear": 0.0209,
+    "random_forest": 0.039,
+    "gradient_boosting": 0.0474,
+    "svr_rbf": -0.0554
+   },
+   "loso": {
+    "ridge": 0.0076,
+    "linear": 0.0057,
+    "random_forest": 0.0641,
+    "gradient_boosting": 0.0643,
+    "svr_rbf": -0.047
+   },
+   "best_grouped": 0.0474,
+   "best_loso": 0.0643,
+   "icc1": 0.4623,
+   "n": 633
+  }
+ }
+}

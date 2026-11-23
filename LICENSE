@@ -1,0 +1,18 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+Copyright (c) 2026 Kushaan Sharma, Aryan Shah, Mariame Ali
+
+You are free to share and adapt this material for any purpose, including
+commercially, provided you give appropriate credit, link to the license, and
+indicate if changes were made.
+
+Full license text: https://creativecommons.org/licenses/by/4.0/legalcode
+
+----
+
+data/atlas_parsed.csv and data/atlas_coverage.csv are derived from the LNP
+Atlas database by Song, S., Baek, J. and Seo, S., released under CC BY 4.0 at
+https://doi.org/10.5281/zenodo.17243733. They are redistributed here under the
+same license, with attribution to its authors. No original values were altered;
+the added proc_* columns are parsed from the database's own free-text
+synthesis_info field.

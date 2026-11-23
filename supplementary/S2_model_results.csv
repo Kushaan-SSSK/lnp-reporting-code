@@ -1,0 +1,55 @@
+target,n,n_studies,model,split,r2,mae,rmse
+Particle size (nm),1037,62,ridge,random,0.3165,31.4748,42.6813
+Particle size (nm),1037,62,linear,random,0.3165,31.4764,42.6836
+Particle size (nm),1037,62,random_forest,random,0.5853,20.9534,33.248
+Particle size (nm),1037,62,gradient_boosting,random,0.5669,23.0098,33.9756
+Particle size (nm),1037,62,svr_rbf,random,0.2557,31.5054,44.5396
+Particle size (nm),1037,62,ridge,grouped,-0.2996,41.939,58.856
+Particle size (nm),1037,62,linear,grouped,-0.3002,41.9501,58.8689
+Particle size (nm),1037,62,random_forest,grouped,0.0408,38.1818,50.5624
+Particle size (nm),1037,62,gradient_boosting,grouped,0.0903,36.7435,49.2423
+Particle size (nm),1037,62,svr_rbf,grouped,-0.0409,39.4262,52.6727
+Particle size (nm),1037,62,ridge,leave_one_study_out,-0.2724,41.8672,58.2358
+Particle size (nm),1037,62,linear,leave_one_study_out,-0.2731,41.8799,58.2516
+Particle size (nm),1037,62,random_forest,leave_one_study_out,-0.0558,39.6857,53.0475
+Particle size (nm),1037,62,gradient_boosting,leave_one_study_out,-0.03,38.4505,52.3963
+Particle size (nm),1037,62,svr_rbf,leave_one_study_out,-0.0373,39.2894,52.5827
+Polydispersity index,738,43,ridge,random,0.3077,0.0555,0.0719
+Polydispersity index,738,43,linear,random,0.3077,0.0555,0.0719
+Polydispersity index,738,43,random_forest,random,0.498,0.0454,0.0612
+Polydispersity index,738,43,gradient_boosting,random,0.4719,0.0466,0.0628
+Polydispersity index,738,43,svr_rbf,random,0.3633,0.0535,0.0689
+Polydispersity index,738,43,ridge,grouped,-0.1466,0.0704,0.0925
+Polydispersity index,738,43,linear,grouped,-0.1483,0.0705,0.0926
+Polydispersity index,738,43,random_forest,grouped,0.0965,0.0633,0.0821
+Polydispersity index,738,43,gradient_boosting,grouped,0.0697,0.0626,0.0833
+Polydispersity index,738,43,svr_rbf,grouped,0.0034,0.0663,0.0863
+Polydispersity index,738,43,ridge,leave_one_study_out,-0.1184,0.07,0.0914
+Polydispersity index,738,43,linear,leave_one_study_out,-0.1192,0.07,0.0914
+Polydispersity index,738,43,random_forest,leave_one_study_out,0.0789,0.0642,0.0829
+Polydispersity index,738,43,gradient_boosting,leave_one_study_out,0.0572,0.0643,0.0839
+Polydispersity index,738,43,svr_rbf,leave_one_study_out,-0.0138,0.067,0.087
+Encapsulation efficiency (%),633,51,ridge,random,0.3031,12.8799,17.5457
+Encapsulation efficiency (%),633,51,linear,random,0.303,12.8806,17.5476
+Encapsulation efficiency (%),633,51,random_forest,random,0.4713,10.1752,15.2822
+Encapsulation efficiency (%),633,51,gradient_boosting,random,0.4981,10.3698,14.8894
+Encapsulation efficiency (%),633,51,svr_rbf,random,0.1644,12.7739,19.2127
+Encapsulation efficiency (%),633,51,ridge,grouped,0.025,14.7613,20.7538
+Encapsulation efficiency (%),633,51,linear,grouped,0.0229,14.7877,20.7755
+Encapsulation efficiency (%),633,51,random_forest,grouped,0.0059,15.6411,20.9562
+Encapsulation efficiency (%),633,51,gradient_boosting,grouped,0.0181,15.5298,20.8272
+Encapsulation efficiency (%),633,51,svr_rbf,grouped,-0.0605,14.9406,21.644
+Encapsulation efficiency (%),633,51,ridge,leave_one_study_out,0.0066,14.7853,20.9487
+Encapsulation efficiency (%),633,51,linear,leave_one_study_out,0.0047,14.8066,20.9688
+Encapsulation efficiency (%),633,51,random_forest,leave_one_study_out,0.0327,15.4126,20.6711
+Encapsulation efficiency (%),633,51,gradient_boosting,leave_one_study_out,0.0674,14.7486,20.297
+Encapsulation efficiency (%),633,51,svr_rbf,leave_one_study_out,-0.0527,14.8235,21.5647
+Particle size (nm),1037,62,stacked_ensemble,random,0.5924,21.4154,32.9607
+Polydispersity index,738,43,stacked_ensemble,random,0.5004,0.0456,0.0611
+Encapsulation efficiency (%),633,51,stacked_ensemble,random,0.4903,10.3789,15.0053
+Particle size (nm),1037,62,stacked_ensemble,grouped,0.0893,37.2433,49.2694
+Polydispersity index,738,43,stacked_ensemble,grouped,0.1444,0.0611,0.0799
+Encapsulation efficiency (%),633,51,stacked_ensemble,grouped,0.0911,14.9196,20.0375
+Particle size (nm),1037,62,stacked_ensemble,leave_one_study_out,-0.0117,38.5832,51.9276
+Polydispersity index,738,43,stacked_ensemble,leave_one_study_out,0.1258,0.062,0.0808
+Encapsulation efficiency (%),633,51,stacked_ensemble,leave_one_study_out,0.0868,14.8807,20.0854

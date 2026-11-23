@@ -1,0 +1,91 @@
+target,variant,split,model,r2
+Particle size (nm),"frequency encoding, leading value (main analysis)",grouped,ridge,-0.2996
+Particle size (nm),"frequency encoding, leading value (main analysis)",grouped,linear,-0.3002
+Particle size (nm),"frequency encoding, leading value (main analysis)",grouped,random_forest,0.0408
+Particle size (nm),"frequency encoding, leading value (main analysis)",grouped,gradient_boosting,0.0903
+Particle size (nm),"frequency encoding, leading value (main analysis)",grouped,svr_rbf,-0.0409
+Particle size (nm),"frequency encoding, leading value (main analysis)",leave_one_study_out,ridge,-0.2724
+Particle size (nm),"frequency encoding, leading value (main analysis)",leave_one_study_out,linear,-0.2731
+Particle size (nm),"frequency encoding, leading value (main analysis)",leave_one_study_out,random_forest,-0.0558
+Particle size (nm),"frequency encoding, leading value (main analysis)",leave_one_study_out,gradient_boosting,-0.03
+Particle size (nm),"frequency encoding, leading value (main analysis)",leave_one_study_out,svr_rbf,-0.0373
+Particle size (nm),"one-hot encoding, leading value",grouped,ridge,-0.2044
+Particle size (nm),"one-hot encoding, leading value",grouped,linear,-0.2314
+Particle size (nm),"one-hot encoding, leading value",grouped,random_forest,0.0308
+Particle size (nm),"one-hot encoding, leading value",grouped,gradient_boosting,-0.0381
+Particle size (nm),"one-hot encoding, leading value",grouped,svr_rbf,-0.0509
+Particle size (nm),"one-hot encoding, leading value",leave_one_study_out,ridge,-0.0298
+Particle size (nm),"one-hot encoding, leading value",leave_one_study_out,linear,-0.0368
+Particle size (nm),"one-hot encoding, leading value",leave_one_study_out,random_forest,0.0047
+Particle size (nm),"one-hot encoding, leading value",leave_one_study_out,gradient_boosting,-0.0566
+Particle size (nm),"one-hot encoding, leading value",leave_one_study_out,svr_rbf,-0.0493
+Particle size (nm),"frequency encoding, midpoint of ranges",grouped,ridge,-0.0812
+Particle size (nm),"frequency encoding, midpoint of ranges",grouped,linear,-0.0816
+Particle size (nm),"frequency encoding, midpoint of ranges",grouped,random_forest,-0.023
+Particle size (nm),"frequency encoding, midpoint of ranges",grouped,gradient_boosting,0.0549
+Particle size (nm),"frequency encoding, midpoint of ranges",grouped,svr_rbf,-0.0268
+Particle size (nm),"frequency encoding, midpoint of ranges",leave_one_study_out,ridge,-0.0744
+Particle size (nm),"frequency encoding, midpoint of ranges",leave_one_study_out,linear,-0.0748
+Particle size (nm),"frequency encoding, midpoint of ranges",leave_one_study_out,random_forest,-0.1284
+Particle size (nm),"frequency encoding, midpoint of ranges",leave_one_study_out,gradient_boosting,-0.1731
+Particle size (nm),"frequency encoding, midpoint of ranges",leave_one_study_out,svr_rbf,-0.0294
+Polydispersity index,"frequency encoding, leading value (main analysis)",grouped,ridge,-0.1466
+Polydispersity index,"frequency encoding, leading value (main analysis)",grouped,linear,-0.1483
+Polydispersity index,"frequency encoding, leading value (main analysis)",grouped,random_forest,0.0965
+Polydispersity index,"frequency encoding, leading value (main analysis)",grouped,gradient_boosting,0.0697
+Polydispersity index,"frequency encoding, leading value (main analysis)",grouped,svr_rbf,0.0034
+Polydispersity index,"frequency encoding, leading value (main analysis)",leave_one_study_out,ridge,-0.1184
+Polydispersity index,"frequency encoding, leading value (main analysis)",leave_one_study_out,linear,-0.1192
+Polydispersity index,"frequency encoding, leading value (main analysis)",leave_one_study_out,random_forest,0.0789
+Polydispersity index,"frequency encoding, leading value (main analysis)",leave_one_study_out,gradient_boosting,0.0572
+Polydispersity index,"frequency encoding, leading value (main analysis)",leave_one_study_out,svr_rbf,-0.0138
+Polydispersity index,"one-hot encoding, leading value",grouped,ridge,-0.1445
+Polydispersity index,"one-hot encoding, leading value",grouped,linear,-0.149
+Polydispersity index,"one-hot encoding, leading value",grouped,random_forest,0.1103
+Polydispersity index,"one-hot encoding, leading value",grouped,gradient_boosting,0.1246
+Polydispersity index,"one-hot encoding, leading value",grouped,svr_rbf,-0.0984
+Polydispersity index,"one-hot encoding, leading value",leave_one_study_out,ridge,-0.1129
+Polydispersity index,"one-hot encoding, leading value",leave_one_study_out,linear,-0.1134
+Polydispersity index,"one-hot encoding, leading value",leave_one_study_out,random_forest,0.101
+Polydispersity index,"one-hot encoding, leading value",leave_one_study_out,gradient_boosting,0.1265
+Polydispersity index,"one-hot encoding, leading value",leave_one_study_out,svr_rbf,-0.1125
+Polydispersity index,"frequency encoding, midpoint of ranges",grouped,ridge,-0.0581
+Polydispersity index,"frequency encoding, midpoint of ranges",grouped,linear,-0.0598
+Polydispersity index,"frequency encoding, midpoint of ranges",grouped,random_forest,0.0889
+Polydispersity index,"frequency encoding, midpoint of ranges",grouped,gradient_boosting,0.107
+Polydispersity index,"frequency encoding, midpoint of ranges",grouped,svr_rbf,0.0026
+Polydispersity index,"frequency encoding, midpoint of ranges",leave_one_study_out,ridge,-0.0283
+Polydispersity index,"frequency encoding, midpoint of ranges",leave_one_study_out,linear,-0.0292
+Polydispersity index,"frequency encoding, midpoint of ranges",leave_one_study_out,random_forest,0.0769
+Polydispersity index,"frequency encoding, midpoint of ranges",leave_one_study_out,gradient_boosting,0.0665
+Polydispersity index,"frequency encoding, midpoint of ranges",leave_one_study_out,svr_rbf,-0.0146
+Encapsulation efficiency (%),"frequency encoding, leading value (main analysis)",grouped,ridge,0.025
+Encapsulation efficiency (%),"frequency encoding, leading value (main analysis)",grouped,linear,0.0229
+Encapsulation efficiency (%),"frequency encoding, leading value (main analysis)",grouped,random_forest,0.0059
+Encapsulation efficiency (%),"frequency encoding, leading value (main analysis)",grouped,gradient_boosting,0.0181
+Encapsulation efficiency (%),"frequency encoding, leading value (main analysis)",grouped,svr_rbf,-0.0605
+Encapsulation efficiency (%),"frequency encoding, leading value (main analysis)",leave_one_study_out,ridge,0.0066
+Encapsulation efficiency (%),"frequency encoding, leading value (main analysis)",leave_one_study_out,linear,0.0047
+Encapsulation efficiency (%),"frequency encoding, leading value (main analysis)",leave_one_study_out,random_forest,0.0327
+Encapsulation efficiency (%),"frequency encoding, leading value (main analysis)",leave_one_study_out,gradient_boosting,0.0674
+Encapsulation efficiency (%),"frequency encoding, leading value (main analysis)",leave_one_study_out,svr_rbf,-0.0527
+Encapsulation efficiency (%),"one-hot encoding, leading value",grouped,ridge,-0.4174
+Encapsulation efficiency (%),"one-hot encoding, leading value",grouped,linear,-0.4722
+Encapsulation efficiency (%),"one-hot encoding, leading value",grouped,random_forest,0.0053
+Encapsulation efficiency (%),"one-hot encoding, leading value",grouped,gradient_boosting,-0.0659
+Encapsulation efficiency (%),"one-hot encoding, leading value",grouped,svr_rbf,-0.1424
+Encapsulation efficiency (%),"one-hot encoding, leading value",leave_one_study_out,ridge,-0.3755
+Encapsulation efficiency (%),"one-hot encoding, leading value",leave_one_study_out,linear,-0.4105
+Encapsulation efficiency (%),"one-hot encoding, leading value",leave_one_study_out,random_forest,0.0184
+Encapsulation efficiency (%),"one-hot encoding, leading value",leave_one_study_out,gradient_boosting,-0.0304
+Encapsulation efficiency (%),"one-hot encoding, leading value",leave_one_study_out,svr_rbf,-0.1345
+Encapsulation efficiency (%),"frequency encoding, midpoint of ranges",grouped,ridge,0.0229
+Encapsulation efficiency (%),"frequency encoding, midpoint of ranges",grouped,linear,0.0209
+Encapsulation efficiency (%),"frequency encoding, midpoint of ranges",grouped,random_forest,0.039
+Encapsulation efficiency (%),"frequency encoding, midpoint of ranges",grouped,gradient_boosting,0.0474
+Encapsulation efficiency (%),"frequency encoding, midpoint of ranges",grouped,svr_rbf,-0.0554
+Encapsulation efficiency (%),"frequency encoding, midpoint of ranges",leave_one_study_out,ridge,0.0076
+Encapsulation efficiency (%),"frequency encoding, midpoint of ranges",leave_one_study_out,linear,0.0057
+Encapsulation efficiency (%),"frequency encoding, midpoint of ranges",leave_one_study_out,random_forest,0.0641
+Encapsulation efficiency (%),"frequency encoding, midpoint of ranges",leave_one_study_out,gradient_boosting,0.0643
+Encapsulation efficiency (%),"frequency encoding, midpoint of ranges",leave_one_study_out,svr_rbf,-0.047

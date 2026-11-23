@@ -1,0 +1,4 @@
+target,n,n_US,n_CA,n_other,icc1_study,icc1_country,r2_study_mean_in_sample,r2_country_mean_in_sample,best_grouped_r2,best_grouped_r2_with_country,transfer_r2_train_US_test_other,transfer_r2_train_other_test_US
+Particle size (nm),1037,716,159,162,0.5826,0.2397,0.599,0.1435,0.0903,0.1068,-0.3853,-0.3575
+Polydispersity index,738,544,48,146,0.5436,0.2329,0.5563,0.1311,0.0965,0.1023,0.0448,-0.3669
+Encapsulation efficiency (%),633,465,72,96,0.4566,0.0592,0.4857,0.041,0.025,0.0283,0.004,-0.4223

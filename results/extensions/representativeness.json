@@ -1,0 +1,73 @@
+{
+  "years": {
+    "n_publications": 62,
+    "observed_pre_2021": 32,
+    "observed_2021_onward": 30,
+    "expected_pre_2021": 26.3,
+    "expected_2021_onward": 35.7,
+    "atlas_share_2021_onward": 0.484,
+    "field_share_2021_onward": 0.577,
+    "chi2": 2.184,
+    "p_value": 0.139,
+    "bins": "pre-2021 vs 2021 onward"
+  },
+  "publications_total": 63,
+  "publications_without_year": 1,
+  "journals": {
+    "n_publications_with_journal": 62,
+    "n_distinct_journals": 34,
+    "most_common_journal": "Nature Communications",
+    "most_common_journal_n": 6,
+    "most_common_journal_share": 0.097,
+    "top5_share": 0.371,
+    "herfindahl_index": 0.0458,
+    "counts": {
+      "Nature Communications": 6,
+      "PNAS": 6,
+      "Journal of Controlled Release": 5,
+      "Science Advances": 3,
+      "Nano Letters": 3,
+      "Nanoscale": 3,
+      "ACS Nano": 2,
+      "Molecular Therapy: Nucleic Acids": 2,
+      "Nanomedicine: Nanotechnology, Biology, and Medicine": 2,
+      "Advanced Materials": 2,
+      "Biomaterials Science": 2,
+      "Gene Therapy": 2,
+      "Nature Biotechnology": 2,
+      "bioRxiv": 2,
+      "Molecular Therapy": 1,
+      "Molecular Therapy?Nucleic Acids": 1,
+      "Angewandte Chemie International Edition": 1,
+      "Chemical Engineering Journal": 1,
+      "Biomaterials Research": 1,
+      "Advanced Functional Materials": 1,
+      "Processes": 1,
+      "Journal of Biomedical Materials Research Part A": 1,
+      "Journal of the American Chemical Society": 1,
+      "Journal of Pharmaceutical Analysis": 1,
+      "Nature Materials": 1,
+      "The Journal of Physical Chemistry B": 1,
+      "International Journal of Pharmaceutics": 1,
+      "Bioengineering & Translational Medicine": 1,
+      "Nanoscale Advances": 1,
+      "ACS Medicinal Chemistry Letters": 1,
+      "Chemical and Pharmaceutical Bulletin": 1,
+      "Small": 1,
+      "Biochimica et Biophysica Acta": 1,
+      "Nature Biomedical Engineering": 1
+    }
+  },
+  "reach": {
+    "field_primary_reports_2005_2025": 7730,
+    "atlas_publications": 63,
+    "atlas_share_of_field": 0.00815,
+    "either_database_publications": 95,
+    "either_database_share_of_field": 0.01229,
+    "reports_per_curated_publication": 81.4
+  },
+  "source": {
+    "coverage_retrieved": "2026-11-03",
+    "atlas_publications_with_year": 62
+  }
+}

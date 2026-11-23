@@ -1,0 +1,80 @@
+{
+ "particle_size_nm_std": {
+  "label": "Particle size (nm)",
+  "n": 1037,
+  "random": {
+   "r2": 0.5924,
+   "mae": 21.4154,
+   "rmse": 32.9607,
+   "n": 1037,
+   "n_folds": 10
+  },
+  "grouped": {
+   "r2": 0.0893,
+   "mae": 37.2433,
+   "rmse": 49.2694,
+   "n": 1037,
+   "n_folds": 10
+  },
+  "loso": {
+   "r2": -0.0117,
+   "mae": 38.5832,
+   "rmse": 51.9276,
+   "n": 1037,
+   "n_studies_held_out": 62
+  },
+  "optimism_gap": 0.5031
+ },
+ "pdi_std": {
+  "label": "Polydispersity index",
+  "n": 738,
+  "random": {
+   "r2": 0.5004,
+   "mae": 0.0456,
+   "rmse": 0.0611,
+   "n": 738,
+   "n_folds": 10
+  },
+  "grouped": {
+   "r2": 0.1444,
+   "mae": 0.0611,
+   "rmse": 0.0799,
+   "n": 738,
+   "n_folds": 10
+  },
+  "loso": {
+   "r2": 0.1258,
+   "mae": 0.062,
+   "rmse": 0.0808,
+   "n": 738,
+   "n_studies_held_out": 43
+  },
+  "optimism_gap": 0.356
+ },
+ "encapsulation_efficiency_percent_std": {
+  "label": "Encapsulation efficiency (%)",
+  "n": 633,
+  "random": {
+   "r2": 0.4903,
+   "mae": 10.3789,
+   "rmse": 15.0053,
+   "n": 633,
+   "n_folds": 10
+  },
+  "grouped": {
+   "r2": 0.0911,
+   "mae": 14.9196,
+   "rmse": 20.0375,
+   "n": 633,
+   "n_folds": 10
+  },
+  "loso": {
+   "r2": 0.0868,
+   "mae": 14.8807,
+   "rmse": 20.0854,
+   "n": 633,
+   "n_studies_held_out": 51
+  },
+  "optimism_gap": 0.3992
+ }
+}

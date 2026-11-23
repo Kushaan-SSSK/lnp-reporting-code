@@ -1,0 +1,4 @@
+target,icc1,icc_F,icc_p,icc_n_studies,study_mean_baseline_r2,ad_h_star,ad_pct_in_domain,positive_control_cv_r2,positive_control_loso_r2,optimism_gap
+Particle size (nm),0.5826,23.872,1.1102230246251565e-16,62,0.599,0.0289,98.2,1.0,1.0,0.495
+Polydispersity index,0.5436,20.747,1.1102230246251565e-16,43,0.5563,0.0407,96.7,0.9999,0.9999,0.4015
+Encapsulation efficiency (%),0.4566,12.098,1.1102230246251565e-16,46,0.4857,0.0474,95.3,1.0,1.0,0.4731

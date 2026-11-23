@@ -1,0 +1,11 @@
+quantity,count
+"PubMed: lipid nanoparticle(s) in title/abstract, 2005-2025, excluding reviews (retrieved 2026-11-03)",7730
+PubMed: of which published 2021-2025,4612
+"PubMed: and mention mRNA, siRNA or nucleic acid",2969
+PubMed: and mention a particle characterization term,392
+PubMed: same base query including review article types,10037
+"PubMed: of which published 2021-2025, including reviews",6280
+LNP Atlas publications,63
+LNPDB publications,42
+Publications in both databases (matched by PMID),10
+Publications in either database,95

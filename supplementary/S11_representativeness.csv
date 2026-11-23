@@ -1,0 +1,20 @@
+quantity,value
+Publications in the LNP Atlas,63
+Publications carrying a publication year,62
+"Publications without a year, excluded from the year comparison",1
+"Published 2021 onward, observed",30
+"Published 2021 onward, expected from the field's year mix",35.7
+Atlas share published 2021 onward,0.484
+Field share published 2021 onward,0.577
+Chi-square goodness of fit (pre-2021 vs 2021 onward),2.184
+Chi-square p value,0.139
+Distinct journals,34
+Most common journal,Nature Communications
+Share from the most common journal,0.097
+Share from the five most common journals,0.371
+Herfindahl index of journal concentration,0.0458
+"Primary research reports in the field, 2005-2025",7730
+Atlas publications as a share of the field,0.00815
+Publications reached by either database,95
+Either database as a share of the field,0.01229
+Primary research reports per curated publication,81.4

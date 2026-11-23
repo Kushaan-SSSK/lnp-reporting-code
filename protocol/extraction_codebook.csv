@@ -1,0 +1,73 @@
+field_id,domain,field_name,unit_or_format,fully_reported_1,partially_reported_0.5,not_reported_0,why_it_matters,priority
+C01,Composition,Ionizable lipid identity,name + PubChem CID,Named lipid resolvable to a unique structure,Class named only (e.g. 'an ionizable lipid'),Absent,Dominant determinant of potency,Essential
+C02,Composition,Ionizable lipid SMILES,SMILES string,SMILES given or unambiguously resolvable from name,Name given but ambiguous or novel,Absent,Required for any structure-based modelling,Essential
+C03,Composition,Ionizable lipid apparent pKa,pKa,Value + assay + temperature + buffer,Value only,Absent,Optimal window 6.2-6.5; drives endosomal escape,Recommended
+C04,Composition,Helper phospholipid identity,name,"Named (e.g. DSPC, DOPE)",Class only,Absent,Cone vs cylindrical geometry changes fusogenicity,Essential
+C05,Composition,Sterol identity,name,Named including analogues,'Cholesterol' unqualified,Absent,C-24 alkyl phytosterols produce polyhedral particles,Essential
+C06,Composition,PEG-lipid identity,name,Named including acyl chain length,PEG stated without chain length,Absent,Chain length sets desorption rate (45% vs 0.2% shed at 1 h),Essential
+C07,Composition,PEG-lipid mol%,mol%,Numeric mol%,Range or approximate,Absent,Controls circulation time and cellular uptake,Essential
+C08,Composition,Four-component molar ratio,mol:mol:mol:mol,All four components numeric,Partial ratio,Absent,50:10:38.5:1.5 gave 6x improvement over 40:10:40:10 in NHP,Essential
+C09,Composition,N/P ratio,dimensionless,Numeric + definition of N,Numeric only,Absent,Ambiguous for multi-amine lipids; often replaced by w/w,Essential
+C10,Composition,Ionizable lipid to cargo weight ratio,w/w,Numeric,Approximate,Absent,Alternative to N/P; ranges 0.04-0.2 across laboratories,Recommended
+C11,Composition,Total lipid concentration,mg/mL or mM,Numeric + units,Units ambiguous,Absent,Sets supersaturation at the mixing point,Recommended
+C12,Composition,Lipid purity or oxidation state,%,Assay + result,Statement without data,Absent,Oxidised ionizable lipid loses mRNA activity,Desirable
+G01,Cargo,Nucleic acid type,category,"Specific (mRNA, siRNA, saRNA, pDNA, ASO)",'RNA' unqualified,Absent,Cargo length changes LNP internal structure and EE,Essential
+G02,Cargo,Cargo length,nt or bp,Numeric,Approximate,Absent,Span from 10 b to 1929 b changes encapsulation behaviour,Essential
+G03,Cargo,Nucleoside modification,category,Specified (e.g. m1psi) or explicitly unmodified,Modified stated without identity,Absent,m1psi gave up to 44x higher expression than alternatives,Essential
+G04,Cargo,Five-prime cap type,category,"Named (Cap1, ARCA, CleanCap)",'Capped' only,Absent,Determines translation efficiency and innate sensing,Recommended
+G05,Cargo,Poly(A) length,nt,Numeric,Present or absent only,Absent,Affects mRNA stability and expression duration,Desirable
+G06,Cargo,RNA integrity or percent intact,%,Assay + numeric value,Assay named without value,Absent,Potency shows a critical fragment-size cutoff,Recommended
+G07,Cargo,RNA quantification method,method,"Method stated, accounting for m1psi hypochromicity",Method only,Absent,A260 is biased by m1psi; a silent systematic dose error,Recommended
+P01,Process,Mixing modality,category,"Specific (microfluidic, ethanol injection, T-junction, impingement jet)",'Mixed' unqualified,Absent,Determines formation kinetics and in vivo tropism,Essential
+P02,Process,Device or chip geometry,make/model or geometry,Named device or described geometry,Vendor named only,Absent,Herringbone vs baffle vs toroidal change mixing time,Essential
+P03,Process,Flow rate ratio (aqueous:organic),ratio,Numeric ratio,Qualitative,Absent,Sets dilution rate and therefore particle size,Essential
+P04,Process,Total flow rate,mL/min,Numeric + units,Range only,Absent,Inversely related to size; affects encapsulation,Essential
+P05,Process,Aqueous phase buffer identity,name,Buffer named,'Aqueous buffer' unqualified,Absent,"Citrate > phosphate > acetate across MC3, SM-102 and ALC-0315",Essential
+P06,Process,Aqueous phase pH,pH,Numeric,Range only,Absent,Must sit below the ionizable pKa for complexation,Essential
+P07,Process,Aqueous buffer molarity,mM,Numeric,Approximate,Absent,Ionic strength affects particle assembly,Recommended
+P08,Process,Organic phase composition,solvent + %,Solvent and percentage,Solvent only,Absent,Residual solvent destabilises particles,Recommended
+P09,Process,Dilution or buffer exchange step,description,Method + buffer + dilution factor,Mentioned only,Absent,Removes ethanol; governs colloidal stability,Essential
+P10,Process,Purification method,category,Dialysis or TFF with membrane MWCO and conditions,Method named only,Absent,Determines free-lipid and unbound PEG removal,Essential
+P11,Process,Sterile filtration,yes/no + pore size,Stated with pore size,Stated without pore size,Absent,Shifts the size distribution by removing large particles,Recommended
+P12,Process,Concentration step,method,Method + final concentration,Mentioned only,Absent,Affects aggregation and final dose accuracy,Desirable
+P13,Process,Cryoprotectant,name + %,Named with concentration,Named only,Absent,Sucrose outperforms trehalose; both vaccines use 10% sucrose,Recommended
+P14,Process,Lyophilisation or freezing protocol,description,Full protocol,Mentioned only,Absent,Determines post-storage size and encapsulation,Recommended
+P15,Process,Storage temperature and duration,degC + time,Both stated,One stated,Absent,Drives size increase and mRNA fragmentation,Essential
+P16,Process,Freeze-thaw cycles,count,Numeric,Mentioned only,Absent,Cumulative damage to particle and cargo,Desirable
+P17,Process,Preparation temperature,degC,Numeric,Ambient implied,Absent,Affects lipid phase behaviour during assembly,Desirable
+X01,Physicochemical,Particle size,nm,Value + method + dispersant,Value only,Absent,DLS z-average is intensity-weighted and biased toward large particles,Essential
+X02,Physicochemical,Size measurement method,method,"Named (DLS, NTA, cryo-TEM) with settings",Named only,Absent,Methods disagree systematically on the same sample,Essential
+X03,Physicochemical,PDI,dimensionless,Value + fit model,Value only,Absent,Uninterpretable without cumulant fit context (ISO 22412),Essential
+X04,Physicochemical,Zeta potential,mV,Value + buffer + pH + ionic strength,Value only,Absent,Reported for only 29.9% of formulations; meaningless without conditions,Essential
+X05,Physicochemical,Encapsulation efficiency,%,Value + assay + calculation basis,Value + assay,Value only or absent,Conventional EE 88-100% vs EE_input 8-49% for the same particles,Essential
+X06,Physicochemical,EE calculation basis,category,States whether the denominator is input or recovered RNA,Formula without denominator,Absent,The single largest definitional gap in the field,Essential
+X07,Physicochemical,EE assay,method,Named (e.g. RiboGreen) with lysis conditions,Named only,Absent,Detergent choice and read kinetics bias the result,Essential
+X08,Physicochemical,Lipid quantification,method + result,RP-HPLC-CAD or equivalent with measured ratios,Method only,Absent,Actual vs nominal molar ratio is rarely verified,Desirable
+X09,Physicochemical,Morphology,method + description,Cryo-TEM images with description,Description only,Absent,Bleb vs solid-core morphology affects potency,Recommended
+X10,Physicochemical,Internal structure,method,SAXS/SANS with phase assignment,Mentioned only,Absent,Ordered-to-disordered phase ratio predicts gene silencing,Desirable
+X11,Physicochemical,Particle concentration,particles/mL,Numeric + method,Approximate,Absent,Required to convert mass dose to particle dose,Desirable
+X12,Physicochemical,Empty-to-full ratio or payload distribution,ratio,Quantified,Mentioned only,Absent,Heterogeneous loading confounds apparent potency,Desirable
+X13,Physicochemical,Stability data,timepoints,Size/PDI/EE across stated time and temperature,Single timepoint,Absent,Underpins any shelf-life claim,Recommended
+B01,Biological,Cell line identity,name,Named + source,Named only,Absent,Transfectability varies by orders of magnitude between lines,Essential
+B02,Biological,Cell line authentication,statement,Authentication and mycoplasma testing stated,One of the two stated,Absent,MIRIBEL item; basic experimental rigour,Recommended
+B03,Biological,Dose amount,ng or ug RNA,Numeric with units,Concentration only,Absent,A concentration is not a dose,Essential
+B04,Biological,Dose normalisation basis,category,"Per well, per cell or per cm2 stated",Ambiguous,Absent,"Without it, doses cannot be compared across studies",Essential
+B05,Biological,Culture vessel and volume,format + mL,Both stated,One stated,Absent,Needed to convert concentration into delivered dose,Recommended
+B06,Biological,Serum conditions,% and type,Stated explicitly,'Complete medium' only,Absent,Serum governs protein corona and apoE adsorption,Essential
+B07,Biological,Incubation time,h,Numeric,Approximate,Absent,Uptake and expression are strongly time-dependent,Recommended
+B08,Biological,Readout assay,method,Named with instrument,Named only,Absent,"Luciferase, GFP and protein readouts are not interconvertible",Essential
+B09,Biological,Readout units,units,Explicit units and normalisation control,Units only,Absent,RLU vs RLU/ug vs %GFP+ vs fold-change; the core heterogeneity finding,Essential
+B10,Biological,In vivo species and strain,name,Species + strain + sex + age,Species only,Absent,Determines tropism and immune response,Essential
+B11,Biological,Administration route,category,"Named (IV, IM, SC, IT)",Implied only,Absent,Route changes biodistribution entirely,Essential
+B12,Biological,In vivo dose,mg/kg,Numeric + basis (RNA vs total lipid),Numeric only,Absent,Basis ambiguity makes doses non-comparable,Essential
+B13,Biological,Biodistribution method,method,Named with quantification,Qualitative images only,Absent,"IVIS, qPCR and barcode sequencing are not equivalent",Recommended
+B14,Biological,ApoE dependence tested,yes/no,Explicitly tested and reported,Mentioned only,Absent,ApoE is the endogenous targeting ligand for ionizable LNPs,Desirable
+B15,Biological,Immunogenicity or reactogenicity,assay + result,Assay + numeric result,Mentioned only,Absent,Anti-PEG antibodies and complement activation,Desirable
+B16,Biological,ARRIVE adherence,statement,Explicit statement or checklist,Ethics approval only,Absent,Benchmark standard for in vivo reporting,Recommended
+M01,Provenance,DOI,string,Present,,Absent,Primary key linking every row to its source,Essential
+M02,Provenance,Publication year,YYYY,Present,,Absent,Enables the temporal trend analysis,Essential
+M03,Provenance,Journal,name,Present,,Absent,Subgroup analysis by venue,Essential
+M04,Provenance,Funding source,text,Stated,Partial,Absent,Industry vs academic subgroup analysis,Recommended
+M05,Provenance,Industry vs academic affiliation,category,Determined from affiliations,Ambiguous,Absent,Tests whether sector predicts reporting completeness,Recommended
+M06,Provenance,Data availability statement,category,Present and substantive,Boilerplate only,Absent,Open-science subgroup analysis,Recommended
+M07,Provenance,MIRIBEL cited or followed,yes/no,Explicit,Implied,Absent,"Measures MIRIBEL uptake, which has never been quantified",Recommended
